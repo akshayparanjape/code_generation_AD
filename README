@@ -1,0 +1,14 @@
+Compile code with:
+cmake CMakeLists.txt
+make
+
+use code with (no spaces in the equation input):
+./main f:=4*x*x-3
+(choose any other function with any number of variables if you want)
+
+compiling the generated C++ code:
+g++ -lm modelicaModel.cpp
+
+starting the programm from the modelicaModel.cpp:
+./a.out 7
+(choose any number instead of 7 if you want)
